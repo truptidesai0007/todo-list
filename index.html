@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Todo App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="todo-container">
+
+
+<h1>✨ Smart Todo List</h1>
+
+<p class="subtitle">
+Manage tasks with priority & deadlines
+</p>
+
+
+
+<div class="input-area">
+
+
+<input 
+id="task"
+placeholder="Enter your task...">
+
+
+
+<input 
+type="date"
+id="date">
+
+
+
+<select id="priority">
+
+<option value="Low">🟢 Low</option>
+
+<option value="Medium">🟡 Medium</option>
+
+<option value="High">🔴 High</option>
+
+</select>
+
+
+
+<button onclick="addTask()">
+Add Task
+</button>
+
+
+<button class="undo" onclick="undoDelete()">
+Undo
+</button>
+
+
+</div>
+
+
+
+<ul id="list"></ul>
+
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
