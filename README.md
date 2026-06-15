@@ -59,6 +59,4 @@ git clone YOUR_GITHUB_LINK
 
 cd todo-app
 
-## Demo
 
-[Watch Demo Video](YOUR_VIDEO_LINK)
