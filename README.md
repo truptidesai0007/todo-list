@@ -28,6 +28,49 @@ Backend:
 
 ## Run Project
 
+## Run Project
+
+### 1. Clone Repository
+
+git clone YOUR_GITHUB_LINK
+
+cd todo-app
+
+
+### 2. Start Backend
+
+Open terminal:
+
+cd backend
+
+Install dependencies:
+
+npm install
+
+Run server:
+
+node server.js
+
+
+Backend will start at:
+
+http://localhost:5000
+
+
+### 3. Start Frontend
+
+Open another terminal:
+
+cd frontend
+
+Run using VS Code Live Server
+
+OR
+
+Open index.html in browser
+
+The application will now run.
+
 ### Backend
 
 cd backend
